@@ -94,28 +94,25 @@ def get_response(notes: str, key: str) -> str:
     return response.text
 
 
-
 def main():
     # Argument parsing
     parser = argparse.ArgumentParser(
         description="Convert markdown notes to tab-delimited flashcards using a Google API."
     )
     parser.add_argument(
-        "folder",
-        type=str,
-        help="Path to the folder containing markdown files."
+        "folder", type=str, help="Path to the folder containing markdown files."
     )
     parser.add_argument(
         "--env",
         type=str,
         default=".env",
-        help="Path to the .env file containing the GOOGLE_API_KEY (default: .env)."
+        help="Path to the .env file containing the GOOGLE_API_KEY (default: .env).",
     )
     parser.add_argument(
         "--output",
         type=str,
         default="flashcards.txt",
-        help="Path to save the flashcards output (default: flashcards.txt in the current directory)."
+        help="Path to save the flashcards output (default: flashcards.txt in the current directory).",
     )
     args = parser.parse_args()
 
