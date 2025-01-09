@@ -34,3 +34,7 @@ Run the script using the following syntax:
 - folder (required): Path to the folder containing markdown files to process
 - --env (optional): Path to the .env file containing the Google API key. Defaults to .env in the current directory.
 - --output (optional): Path to save the generated flashcards file. Defaults to flashcards.txt in the current directory.
+
+## Use with Anki
+1. Open anki and click "Import File"
+2. Navigate to flashcards.txt and import it
