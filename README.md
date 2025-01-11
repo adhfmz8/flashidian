@@ -1,6 +1,6 @@
 # Markdown to Flashcards CLI
 
-flashidian is a command-line tool that converts markdown notes into tab-delimited flashcards using the Google API. The flashcards are saved in a text file, ready to import into applications like Anki.
+flashidian is a command-line tool that converts markdown notes into tab-delimited flashcards using Google Gemini 2.0 flash. The flashcards are saved in a text file, ready to import into applications like Anki.
 
 ## Features
 - Parses markdown notes from a specified folder.
